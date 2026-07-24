@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bt7m4ju4magg6"]
+
+[ext_resource type="Texture2D" uid="uid://bs3kex3wyt7x" path="res://icon.svg" id="1_ivyw7"]
+
+[node name="PruebaFisica" type="Node2D" unique_id=1415569890]
+position = Vector2(-2, 0)
+
+[node name="RigidBody2D" type="RigidBody2D" parent="." unique_id=617992056]
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D" unique_id=254509672]
+position = Vector2(-80, -25)
+texture = ExtResource("1_ivyw7")
